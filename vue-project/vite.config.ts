@@ -9,10 +9,10 @@ import viteCompression from "vite-plugin-compression"
 export default defineConfig({
   plugins: [
     vue(),
-    viteCompression({
-      threshold: 102400,
-      deleteOriginFile: true
-    })
+    // viteCompression({
+    //   threshold: 102400,
+    //   deleteOriginFile: true
+    // })
   ],
   resolve: {
     alias: {
@@ -21,6 +21,7 @@ export default defineConfig({
   },
   build: {
     outDir: "../data/www",
-    reportCompressedSize: true
+    reportCompressedSize: true,
+    emptyOutDir: true
   }
 })

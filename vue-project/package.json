@@ -10,8 +10,13 @@
     "type-check": "vue-tsc --noEmit"
   },
   "dependencies": {
+    "@element-plus/icons-vue": "^2.1.0",
+    "axios": "^1.4.0",
+    "element-plus": "^2.3.4",
+    "sass": "^1.62.1",
     "vite-plugin-compression": "^0.5.1",
-    "vue": "^3.2.47"
+    "vue": "^3.2.47",
+    "vue-router": "^4.1.6"
   },
   "devDependencies": {
     "@types/node": "^18.14.2",
